@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/effects.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <p class="header-title">Выполните задания теста:</p>
+            </div>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <p class="main-first__answer">22 + 22 * 2 = <input class="effect-1 col3 input" placeholder="Введите ответ" type="text" id="z_1"><span class="focus-border"></span></p>
+                <div class="main-two">
+                    <p class="main-second__answer"> 8 * 8 + 8 = </p>
+                    <form class="main-second__radio" >
+                        <select name="z_2" id="z_2" class="main-second__select">
+                            <option value="72">72</option>
+                            <option value="73">73</option>
+                            <option value="75">75</option>
+                        </select>
+                    </form>
+                    <!-- /.main-second__radio -->
+                </div>
+                <!-- /.main-two -->
+                <p class="main-third__answer"> 12 * 3 + 3 = </p>
+                <input type="number" class="main-third_answer-number" id="z_3">
+                <div id="rezultat" class="ress_css"></div>
+                <button class="main-button" onclick="proverit();">Проверить</button>
+            </div>
+            <!-- /.main-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+</body>
+<script src="js/index.js"></script>
+<script src="js/effects.js"></script>
+</html>
